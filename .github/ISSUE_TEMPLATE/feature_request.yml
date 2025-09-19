@@ -1,0 +1,30 @@
+#
+//  bug_report.yml
+//  
+//
+//  Created by Musab Amin on 9/19/25.
+//
+
+name: Feature Request
+about: Suggest a new feature or enhancement for the app.
+title: "[Feature]: "
+labels: ["Geofence Notifier", "feature"]
+
+body:
+  - type: dropdown
+    id: app-name
+    attributes:
+      label: Which app is this issue for?
+      description: Select the app for which you are requesting a feature.
+      options:
+        - Geofence Notifier
+    validations:
+      required: true
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: Describe the feature
+      description: A clear and concise description of the new feature you want.
+      placeholder: Tell us what you want to see!
+    validations:
+      required: true
