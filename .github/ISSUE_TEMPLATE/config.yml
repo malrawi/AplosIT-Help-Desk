@@ -1,10 +1,3 @@
-#
-//  config.yml
-//  
-//
-//  Created by Musab Amin on 9/19/25.
-//
-
 blank_issues_enabled: false
 contact_links:
   - name: Report a bug
