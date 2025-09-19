@@ -1,12 +1,5 @@
-#
-//  bug_report.yml
-//  
-//
-//  Created by Musab Amin on 9/19/25.
-//
-
 name: Feature Request
-about: Suggest a new feature or enhancement for the app.
+description: Suggest a new feature or enhancement for the app.
 title: "[Feature]: "
 labels: ["Geofence Notifier", "feature"]
 
